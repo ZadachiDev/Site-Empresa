@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Loja de Comidas</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#products">Produtos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Delícias para Todos os Gostos</h2>
+            <p>Explore nossa seleção de pratos rapidos e deliciosos.</p>
+        </div>
+    </section>
+    
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Nossos Produtos</h2>
+            <div class="product-card">
+                <img src="/img/Pizza-Artesanal-Congelada-SEARA-Gourmet-Calabresa-Caixa-400g.webp">
+                <h3>Pizza Seara</h3>
+                <p>Uma pizza clássica com molho de tomate, queijo, cebola e calabresa.</p>
+                <p>R$ 39,99</p>
+                <button onclick="addToCart('Pizza Margherita', 49.99)">Adicionar ao Carrinho</button>
+            </div>
+            <div class="product-card">
+                <img src="/img/188035-800-auto.webp">
+                <h3>Hamburguer Seara</h3>
+                <p>Hamburguer suculento gurmet com hamburguer, salada, queijo e cebola.</p>
+                <p>R$ 29,99</p>
+                <button onclick="addToCart('Hamburguer Artesanal', 29.99)">Adicionar ao Carrinho</button>
+            </div>
+            <div class="product-card">
+                <img src="/img/1fb4a2e5fe234163dd0a2ba805eed1ddef503cd7.png">
+                <h3>Temaki</h3>
+                <p>Temaki de salmão com cream chesse, cebolinha e arroz </p>
+                <p>R$ 24,99</p>
+                <button onclick="addToCart('Hamburguer Artesanal', 29.99)">Adicionar ao Carrinho</button>
+            </div>
+            <div class="product-card">
+                <img src="/img/1730087303df506dc2a.webp">
+                <h3>Churros</h3>
+                <p>Churros de varios sabores, chocolate, chocolate branco, doçe de leite e nutela.</p>
+                <p>R$ 9,99 Un / R$ 12,99 Nutela</p>
+                <button onclick="addToCart('Hamburguer Artesanal', 29.99)">Adicionar ao Carrinho</button>
+            </div>
+            <!-- Adicionar mais produtos conforme necessário -->
+        </div>
+    </section>
+    
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco pelo e-mail <a href="mailto:contato@lojacomidas.com">goodfast@lojagoodgast.com</a>.</p>
+         <h2>ou</h2>
+            <p>Entre em contato conosco pelo telefone <a href="mailto:contato@lojacomidas.com">+55 (18) 996773829</a>.</p>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Gabriel de Paula. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    
+    <script src="./js/script.js"></script>
+</body>
+</html>
